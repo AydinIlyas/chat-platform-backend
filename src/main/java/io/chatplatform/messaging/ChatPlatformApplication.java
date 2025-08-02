@@ -1,13 +1,13 @@
-package io.chatplatform.chatplatformbackend;
+package io.chatplatform.messaging;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChatPlatformBackendApplication {
+public class ChatPlatformApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ChatPlatformBackendApplication.class, args);
+        SpringApplication.run(ChatPlatformApplication.class, args);
     }
 
 }
